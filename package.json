@@ -1,0 +1,26 @@
+{
+  "name": "electron-mac-traffic-lights",
+  "version": "1.0.0",
+  "description": "Fit macOS native traffic-light buttons into a custom narrow sidebar — per-button spacing via FFI + zero-bounce swizzle of Electron's WindowButtonsProxy.redraw",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "macos",
+    "traffic-lights",
+    "titlebar",
+    "koffi",
+    "ffi",
+    "objc"
+  ],
+  "license": "MIT",
+  "pnpm": {
+    "onlyBuiltDependencies": ["electron"]
+  },
+  "dependencies": {
+    "electron": "^39.8.10",
+    "koffi": "^3.3.2"
+  }
+}
