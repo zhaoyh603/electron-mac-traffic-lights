@@ -1,7 +1,7 @@
 'use strict';
 /**
  * demo 入口：一个 60px 窄侧栏窗口，验证系统红绿灯三钮收紧 + 零弹跳。
- * 运行：npm start（窗口起来后试试最大化/还原、全屏、拖拽——按钮应全程钉住）。
+ * 运行：pnpm start（窗口起来后试试最大化/还原、全屏、拖拽——按钮应全程钉住）。
  */
 const { app, BrowserWindow } = require('electron');
 const { setup } = require('./lib/traffic-lights');

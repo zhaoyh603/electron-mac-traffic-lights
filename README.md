@@ -27,8 +27,8 @@ Electron 隐藏标题栏（`titleBarStyle: 'hidden'`）后：
 ## 快速开始
 
 ```bash
-npm install
-npm start
+pnpm install
+pnpm start
 ```
 
 窗口起来后验证：点绿钮最大化/还原、进出全屏、拖拽改大小——按钮全程钉在紧凑位；hover 绿钮约 1 秒，系统平铺面板（Move & Resize）照常弹出。
